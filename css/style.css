@@ -1,0 +1,95 @@
+/*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+/* Global Setting */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  color: #272a31;
+  font-weight: 100;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*slider section*/
+.slider {
+  background: #F8F8F8;
+  background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)),url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80");
+  background-size: cover;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.welcome-description {
+  background-color: #F7F7F7;
+  border: 2px solid #fff;
+}
+
+.event-date h2 {
+  font-size: 2rem;
+}
+
+
+/*main-program section*/
+.main-program {
+  background-color: #272a31;
+}
+
+.main-program h3 {
+  font-size: 1.5rem;
+}
+
+.main-program i {
+  font-size: 3rem;
+}
+
+.icons .row {
+  background-color: #3c3e43;
+}
+
+.main-program .red {
+  font-size: 1.6rem;
+}
