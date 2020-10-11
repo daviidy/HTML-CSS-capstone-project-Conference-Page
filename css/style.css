@@ -75,6 +75,13 @@ p {
 }
 
 /*slider section*/
+
+.nav-small i {
+  font-size: 3rem;
+  top: 10%;
+  left: 10%;
+}
+
 .slider {
   background: #F8F8F8;
   background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)),url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80");
@@ -122,12 +129,12 @@ p {
   margin: auto;
 }
 
+.partners figure {
+  margin: 2rem;
+}
+
 @media screen and (max-width:767px) {
   .partners {
     width: 90%;
-  }
-
-  .partners figure {
-    margin: 2rem;
   }
 }
