@@ -18,11 +18,84 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!--navbars-->
+    <div class="d-none d-md-block">
+      <nav class="navbar navbar-expand-sm bg-dark-custom text-white pt-0 pb-0">
 
-    <!--jumbotron section-->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                English
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                My Page
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Logout
+              </a>
+            </li>
+          </ul>
+      </nav>
+      <nav class="navbar navbar-expand-sm bg-white text-dark pt-0 pb-0">
+          <a class="navbar-brand p-0 m-0" href="#">
+            <figure class="m-0">
+              <img class="img-fluid" width="100" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/CC_Global_Summit_2015.png" alt="Logo">
+            </figure>
+          </a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link red" href="./about.html">
+                About
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="./tickets.html">
+                Tickets
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                Join
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                Sponsor
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                News
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4 red campaign">
+              <a class="nav-link" href="#">
+                CC Campaign
+              </a>
+            </li>
+          </ul>
+      </nav>
+    </div>
+
+    <!--bars for small screens-->
     <div class="nav-small d-block d-md-none">
       <i class="fas fa-bars position-absolute"></i>
     </div>
+    <!--jumbotron section-->
     <div class="container-fluid jumbotron slider mb-0">
       <div class="row">
         <div class="welcome-text col-12 pt-5 mt-5">
@@ -30,8 +103,8 @@
           <h1 class="text-uppercase text-left display-4 font-weight-bold red">HTML/CSS Bootcamp 2020</h1>
         </div>
 
-        <div class="welcome-description col-12 p-4 mt-4 mb-4">
-          <p class="">HTML and CSS for Beginners course will give your all the knowledge you need to master HTML and CSS easily and quickly.
+        <div class="col-12 mt-4 mb-4">
+          <p class="p-4 welcome-description">HTML and CSS for Beginners course will give your all the knowledge you need to master HTML and CSS easily and quickly.
   Free tutorial</p>
         </div>
 
@@ -50,69 +123,77 @@
           <hr class="hr-title">
         </div>
       </div>
-      <div class="row speakers">
-        <div class="col-12">
-          <div class="row mb-5 p-4 bg-dark-light-custom">
-            <div class="col-2 pr-0 pl-0">
+      <div class="row speakers justify-content-center">
+        <div class="col-12 col-md-2">
+          <div class="text-md-center row mb-5 p-4 bg-dark-light-custom">
+            <div class="col-2 col-md-12 pr-0 pl-0">
               <i class="fas fa-chalkboard-teacher text-white"></i>
             </div>
-            <div class="col-5 pr-0 pl-0 red section-subtitle">
+            <div class="col-5 col-md-12 pr-0 pl-0 red section-subtitle">
               Exhibition
             </div>
-            <div class="col-5 pr-0 pl-0">
+            <div class="col-5 col-md-12 pr-0 pl-0">
               6 hours on-demand video. You can listen to the speakers from
               various countries
             </div>
           </div>
-          <div class="row mb-5 p-4 bg-dark-light-custom">
-            <div class="col-2 pr-0 pl-0">
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="text-md-center row mb-5 p-4 bg-dark-light-custom">
+            <div class="col-2 col-md-12 pr-0 pl-0">
               <i class="fas fa-chalkboard-teacher text-white"></i>
             </div>
-            <div class="col-5 pr-0 pl-0 red section-subtitle">
+            <div class="col-5 col-md-12 pr-0 pl-0 red section-subtitle">
               Exhibition
             </div>
-            <div class="col-5 pr-0 pl-0">
+            <div class="col-5 col-md-12 pr-0 pl-0">
               6 hours on-demand video. You can listen to the speakers from
               various countries
             </div>
           </div>
-          <div class="row mb-5 p-4 bg-dark-light-custom">
-            <div class="col-2 pr-0 pl-0">
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="text-md-center row mb-5 p-4 bg-dark-light-custom">
+            <div class="col-2 col-md-12 pr-0 pl-0">
               <i class="far fa-comments text-white"></i>
             </div>
-            <div class="col-5 pr-0 pl-0 red section-subtitle">
+            <div class="col-5 col-md-12 pr-0 pl-0 red section-subtitle">
               Forum
             </div>
-            <div class="col-5 pr-0 pl-0">
+            <div class="col-5 col-md-12 pr-0 pl-0">
               6 hours on-demand video. You can listen to the speakers from
               various countries
             </div>
           </div>
-          <div class="row mb-5 p-4 bg-dark-light-custom">
-            <div class="col-2 pr-0 pl-0">
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="text-md-center row mb-5 p-4 bg-dark-light-custom">
+            <div class="col-2 col-md-12 pr-0 pl-0">
               <i class="fas fa-laptop text-white"></i>
             </div>
-            <div class="col-5 pr-0 pl-0 red section-subtitle">
+            <div class="col-5 col-md-12 pr-0 pl-0 red section-subtitle">
               Workshop
             </div>
-            <div class="col-5 pr-0 pl-0">
+            <div class="col-5 col-md-12 pr-0 pl-0">
               6 hours on-demand video. You can listen to the speakers from
               various countries
             </div>
           </div>
-          <div class="row mb-5 p-4 bg-dark-light-custom">
-            <div class="col-2 pr-0 pl-0">
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="text-md-center row mb-5 p-4 bg-dark-light-custom">
+            <div class="col-2 col-md-12 pr-0 pl-0">
               <i class="fas fa-atom text-white"></i>
             </div>
-            <div class="col-5 pr-0 pl-0 red section-subtitle">
+            <div class="col-5 col-md-12 pr-0 pl-0 red section-subtitle">
               CC Ignite
             </div>
-            <div class="col-5 pr-0 pl-0">
+            <div class="col-5 col-md-12 pr-0 pl-0">
               6 hours on-demand video. You can listen to the speakers from
               various countries
             </div>
           </div>
-
+        </div>
           <div class="row mb-5">
             <div class="col-12 text-center">
               <a href="#" class="text-white cta btn rounded-0 bg-red pr-5 pl-5 pt-4 pb-4">
@@ -133,7 +214,7 @@
         </div>
       </div>
       <div class="row speakers">
-        <div class="col-12">
+        <div class="col-12 col-md-6">
           <div class="row mb-5 p-4 bg-white">
             <div class="col-3 pr-0 pl-0">
               <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
@@ -147,6 +228,8 @@
                 aliqua. Ut enim ad minim veniam.</p>
             </div>
           </div>
+        </div>
+        <div class="col-12 col-md-6">
           <div class="row mb-5 p-4 bg-white">
             <div class="col-3 pr-0 pl-0">
               <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
@@ -160,67 +243,136 @@
                 aliqua. Ut enim ad minim veniam.</p>
             </div>
           </div>
-          <div class="row mb-5 border d-block d-md-none">
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row mb-5 p-4 bg-white">
+          <div class="col-3 pr-0 pl-0">
+            <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
+          </div>
+          <div class="col-9 pr-0 pl-4">
+            <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
+            <p class="red font-italic">Full Stack Web Developer</p>
+            <hr class="hr-speakers ml-0 mb-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row mb-5 p-4 bg-white">
+          <div class="col-3 pr-0 pl-0">
+            <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
+          </div>
+          <div class="col-9 pr-0 pl-4">
+            <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
+            <p class="red font-italic">Full Stack Web Developer</p>
+            <hr class="hr-speakers ml-0 mb-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row mb-5 p-4 bg-white">
+          <div class="col-3 pr-0 pl-0">
+            <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
+          </div>
+          <div class="col-9 pr-0 pl-4">
+            <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
+            <p class="red font-italic">Full Stack Web Developer</p>
+            <hr class="hr-speakers ml-0 mb-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row mb-5 p-4 bg-white">
+          <div class="col-3 pr-0 pl-0">
+            <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
+          </div>
+          <div class="col-9 pr-0 pl-4">
+            <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
+            <p class="red font-italic">Full Stack Web Developer</p>
+            <hr class="hr-speakers ml-0 mb-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+        </div>
+        <div class="row mb-5 border d-block d-md-none">
             <div class="col-12 text-center">
               <a data-toggle="collapse" data-target="#demo" href="#" class="text-uppercase btn rounded-0 pr-5 pl-5 pt-2 pb-2">
                 More <i class="fas fa-angle-down red"></i>
               </a>
             </div>
           </div>
-          <div id="demo" class="collapse d-md-block">
+        <div id="demo" class="collapse d-md-none row">
+          <div class="col-12 col-md-6">
             <div class="row mb-5 p-4 bg-white">
-              <div class="col-3 pr-0 pl-0">
-                <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
-              </div>
-              <div class="col-9 pr-0 pl-4">
-                <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
-                <p class="red font-italic">Full Stack Web Developer</p>
-                <hr class="hr-speakers ml-0 mb-3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam.</p>
-              </div>
+            <div class="col-3 pr-0 pl-0">
+              <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
             </div>
-            <div class="row mb-5 p-4 bg-white">
-              <div class="col-3 pr-0 pl-0">
-                <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
-              </div>
-              <div class="col-9 pr-0 pl-4">
-                <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
-                <p class="red font-italic">Full Stack Web Developer</p>
-                <hr class="hr-speakers ml-0 mb-3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam.</p>
-              </div>
-            </div>
-            <div class="row mb-5 p-4 bg-white">
-              <div class="col-3 pr-0 pl-0">
-                <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
-              </div>
-              <div class="col-9 pr-0 pl-4">
-                <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
-                <p class="red font-italic">Full Stack Web Developer</p>
-                <hr class="hr-speakers ml-0 mb-3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam.</p>
-              </div>
-            </div>
-            <div class="row mb-5 p-4 bg-white">
-              <div class="col-3 pr-0 pl-0">
-                <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
-              </div>
-              <div class="col-9 pr-0 pl-4">
-                <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
-                <p class="red font-italic">Full Stack Web Developer</p>
-                <hr class="hr-speakers ml-0 mb-3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam.</p>
-              </div>
+            <div class="col-9 pr-0 pl-4">
+              <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
+              <p class="red font-italic">Full Stack Web Developer</p>
+              <hr class="hr-speakers ml-0 mb-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam.</p>
             </div>
           </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row mb-5 p-4 bg-white">
+            <div class="col-3 pr-0 pl-0">
+              <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
+            </div>
+            <div class="col-9 pr-0 pl-4">
+              <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
+              <p class="red font-italic">Full Stack Web Developer</p>
+              <hr class="hr-speakers ml-0 mb-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row mb-5 p-4 bg-white">
+            <div class="col-3 pr-0 pl-0">
+              <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
+            </div>
+            <div class="col-9 pr-0 pl-4">
+              <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
+              <p class="red font-italic">Full Stack Web Developer</p>
+              <hr class="hr-speakers ml-0 mb-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row mb-5 p-4 bg-white">
+            <div class="col-3 pr-0 pl-0">
+              <img class="img-fluid rounded" src="./assets/images/davidcomics.jpg" alt="Speaker">
+            </div>
+            <div class="col-9 pr-0 pl-4">
+              <h3 class="mb-1 section-title font-weight-bold">David YAO</h3>
+              <p class="red font-italic">Full Stack Web Developer</p>
+              <hr class="hr-speakers ml-0 mb-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam.</p>
+            </div>
+          </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -255,7 +407,7 @@
 
 
     <!--footer-->
-    <footer class="container-fluid p-4">
+    <footer class="container-fluid p-4 bg-light">
       <div class="row">
         <div class="col-6">
           <figure>

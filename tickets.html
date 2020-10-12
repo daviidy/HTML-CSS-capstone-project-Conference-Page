@@ -18,11 +18,84 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!--navbars-->
+    <div class="d-none d-md-block">
+      <nav class="navbar navbar-expand-sm bg-dark-custom text-white pt-0 pb-0">
 
-    <!--jumbotron section-->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                English
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                My Page
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Logout
+              </a>
+            </li>
+          </ul>
+      </nav>
+      <nav class="navbar navbar-expand-sm bg-white text-dark pt-0 pb-0">
+          <a class="navbar-brand p-0 m-0" href="#">
+            <figure class="m-0">
+              <img class="img-fluid" width="100" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/CC_Global_Summit_2015.png" alt="Logo">
+            </figure>
+          </a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link red" href="./about.html">
+                About
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="./tickets.html">
+                Tickets
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                Join
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                Sponsor
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                News
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4 red campaign">
+              <a class="nav-link" href="#">
+                CC Campaign
+              </a>
+            </li>
+          </ul>
+      </nav>
+    </div>
+
+    <!--bars for small screens-->
     <div class="nav-small d-block d-md-none">
       <i class="fas fa-bars position-absolute"></i>
     </div>
+    <!--jumbotron section-->
     <div class="container-fluid jumbotron slider-about mb-0">
       <div class="row pt-3 mb-5">
         <div class="col-12">
@@ -31,14 +104,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 border rounded">
-          <p class="text-center font-weight-bold p-2">
+        <div class="col-12 steps">
+          <p class="border rounded text-center font-weight-bold p-2">
             <span class="text-uppercase red"><i class="fas fa-circle"></i>STEP 1</span>
             Please select the day when you want to join HTML Bootcamp.
           </p>
         </div>
-        <div class="col-12 bg-table pr-2 pl-2 mt-3">
-          <table class="tickets-table table-bordered pr-0 pl-0 table table-responsive col-12 mt-2 mb-2">
+      </div>
+      <div class="row">
+        <div class="table-responsive col-12 bg-table pr-2 pl-2 mt-3">
+          <table class="tickets-table table-bordered pr-0 pl-0 table col-12 mt-2 mb-2">
             <thead class="thead-light">
               <tr>
                 <th>Ticket</th>
@@ -125,13 +200,15 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 border rounded">
-          <p class="text-center font-weight-bold p-2">
+        <div class="col-12 steps">
+          <p class="border rounded text-center font-weight-bold p-2">
             <span class="text-uppercase red"><i class="fas fa-circle"></i>STEP 2</span>
             Please select your lunch for registered day. There will be no further
             coasts for the lunch.
           </p>
         </div>
+      </div>
+      <div class="row">
         <div class="col-12 border mt-3 mb-3 pl-0 pr-0">
           <h4 class="text-center bg-light m-0 p-4">Select your lunch</h4>
           <div class="d-flex flex-wrap justify-content-center">

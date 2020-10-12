@@ -18,20 +18,93 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!--navbars-->
+    <div class="d-none d-md-block">
+      <nav class="navbar navbar-expand-sm bg-dark-custom text-white pt-0 pb-0">
 
-    <!--jumbotron section-->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                English
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                My Page
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Logout
+              </a>
+            </li>
+          </ul>
+      </nav>
+      <nav class="navbar navbar-expand-sm bg-white text-dark pt-0 pb-0">
+          <a class="navbar-brand p-0 m-0" href="#">
+            <figure class="m-0">
+              <img class="img-fluid" width="100" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/CC_Global_Summit_2015.png" alt="Logo">
+            </figure>
+          </a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link red" href="./about.html">
+                About
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="./tickets.html">
+                Tickets
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                Join
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                Sponsor
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4">
+              <a class="nav-link" href="#">
+                News
+              </a>
+            </li>
+            <li class="nav-item pr-4 pl-4 red campaign">
+              <a class="nav-link" href="#">
+                CC Campaign
+              </a>
+            </li>
+          </ul>
+      </nav>
+    </div>
+
+    <!--bars for small screens-->
     <div class="nav-small d-block d-md-none">
       <i class="fas fa-bars position-absolute"></i>
     </div>
+    <!--jumbotron section-->
     <div class="container-fluid jumbotron slider-about mb-0">
       <div class="row">
         <div class="welcome-text col-12 pt-5 mt-5">
-          <h3 class="text-left red">"Hello World!"</h3>
-          <h1 class="text-uppercase text-left display-4 font-weight-bold red">HTML/CSS Bootcamp 2020</h1>
+          <h3 class="text-left text-md-center red">"Hello World!"</h3>
+          <h1 class="text-uppercase text-left text-md-center display-4 font-weight-bold red">HTML/CSS Bootcamp 2020</h1>
         </div>
 
-        <div class="welcome-description bg-white col-12 p-4 mt-4 mb-4">
-          <p class="">HTML and CSS for Beginners course will give your all the knowledge you need to master HTML and CSS easily and quickly.
+        <div class="col-12 mt-4 mb-4">
+          <p class="welcome-description bg-white p-4">HTML and CSS for Beginners course will give your all the knowledge you need to master HTML and CSS easily and quickly.
   Free tutorial. HTML and CSS for Beginners course will give your all the knowledge you need to master HTML and CSS easily and quickly.
 Free tutorial</p>
         </div>
@@ -50,7 +123,7 @@ Free tutorial</p>
 
     <!-- logo section-->
     <div class="container-fluid featured-speakers text-dark bg-white border-bottom">
-      <div class="row pt-3 mb-5">
+      <div class="row pt-1 mb-3">
         <div class="col-12">
           <h3 class="text-center section-title">Course Logo</h3>
           <hr class="hr-title">
@@ -61,8 +134,8 @@ Free tutorial</p>
           <p class="text-center">The logo of this bootcamp was decided
           through the logo competition from 8. June to 7. July</p>
         </div>
-        <div class="col-12 mt-4 text-center border">
-          <figure>
+        <div class="col-12 mt-4 text-center">
+          <figure class="border">
             <img class="img-fluid" width="200" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/CC_Global_Summit_2015.png" alt="Logo">
           </figure>
         </div>
@@ -77,53 +150,26 @@ Free tutorial</p>
           <hr class="hr-title">
         </div>
       </div>
-      <div class="row previous p-4">
+      <div class="row">
         <div class="col-12">
-          <p class="text-center">The logo of this bootcamp was decided
-          through the logo competition from 8. June to 7. July</p>
+          <p class="text-center">Take a look at our previous bootcamps</p>
         </div>
-        <div class="col-12 mt-4 text-center text-white p-5">
+      </div>
+      <div class="row previous p-4 justify-content-center">
+        <div class="col-12 col-md-5 mt-4 text-center text-white p-5">
           <h3 class="font-weight-bold mb-3">2013</h3>
           <p class="font-weight-bold text-white">CC Global Summit 2013 in Buenos Aires</p>
         </div>
-        <div class="col-12 mt-4 text-center text-white p-5">
+        <div class="col-12 col-md-5 ml-md-2 mt-4 text-center text-white p-5">
           <h3 class="font-weight-bold mb-3">2013</h3>
           <p class="font-weight-bold text-white">CC Global Summit 2013 in Buenos Aires</p>
         </div>
-      </div>
-    </div>
-
-
-    <!--partner section-->
-    <div class="container-fluid main-program text-white bg-dark-custom">
-      <div class="row pt-3 mb-3">
-        <div class="col-12">
-          <h3 class="text-center section-title">Partner</h3>
-          <hr class="hr-title">
-        </div>
-      </div>
-      <div class="partners">
-        <figure>
-          <img width="100" src="https://blog.mozilla.org/services/wp-content/themes/OneMozilla/img/mozilla-wordmark.png" alt="Partner">
-        </figure>
-        <figure>
-          <img width="100" src="https://feeditback.com/wp-content/uploads/2020/04/logo-partner-google-dark.png" alt="Partner">
-        </figure>
-        <figure>
-          <img width="100" src="https://seattlecentralnewmedia.com/minjungyoon/wp-content/uploads/sites/312/2018/12/2000px-Naver_Logotype.svg_-1024x185.png" alt="Partner">
-        </figure>
-        <figure>
-          <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Daum_Kakao_wordmark_-_2014.svg/1280px-Daum_Kakao_wordmark_-_2014.svg.png" alt="Partner">
-        </figure>
-        <figure>
-          <img width="100" src="https://i.pinimg.com/originals/ce/c0/5a/cec05a890ea942b3cd3f946f2e2c6433.png" alt="Partner">
-        </figure>
       </div>
     </div>
 
 
     <!--footer-->
-    <footer class="container-fluid p-4">
+    <footer class="container-fluid p-4 bg-dark-custom">
       <div class="row">
         <div class="col-6">
           <figure>
@@ -131,7 +177,7 @@ Free tutorial</p>
           </figure>
         </div>
         <div class="col-6">
-          <p>2020 Creative Commons Korea <br>
+          <p class="text-white">2020 Creative Commons Korea <br>
           Some Rights Reserved </p>
         </div>
       </div>

@@ -82,6 +82,10 @@ p {
   left: 10%;
 }
 
+.campaign {
+  border: 5px solid #ec5242;
+}
+
 .slider {
   background: #F8F8F8;
   background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)),url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80");
@@ -147,12 +151,12 @@ p {
 
 /* past section */
 
-.previous div:nth-child(2) {
+.previous div:nth-child(1) {
   background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80");
   background-size: cover;
 }
 
-.previous div:nth-child(3) {
+.previous div:nth-child(2) {
   background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),url("https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
 }
@@ -160,5 +164,37 @@ p {
 /* tickets section */
 
 .bg-table {
-  background: url("https://thumbs.dreamstime.com/b/air-mail-letter-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg");
+  background: url("https://thumbs.dreamstime.com/b/air-mail-letter-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg") no-repeat;
+  background-size: cover;
+}
+
+@media  screen and (min-width:768px) {
+  .steps p {
+    width: 50%;
+    margin: auto;
+  }
+
+  .welcome-description {
+    width: 50%;
+  }
+
+  .slider-about .welcome-description {
+    width: 50%;
+    margin: auto;
+  }
+
+  .logo-description figure{
+    width: 50%;
+    margin: auto;
+  }
+
+  .speakers .section-subtitle {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .speakers i {
+    font-size: 1.5rem;
+  }
 }
