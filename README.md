@@ -33,12 +33,6 @@ I've worked on all the requirements given on this project.
 - Twitter: [@DavidYao3](https://twitter.com/DavidYao3)
 - LinkedIn: [@DavidYao](https://www.linkedin.com/in/david-yao-6bb95299/)
 
-👤 **Nikola Zdrale**
-
-- GitHub: [@zdrale](https://github.com/zdrale)
-- Twitter: [@zdralenikola](https://twitter.com/zdralenikola)
-- LinkedIn: [@nikola-zdrale](https://www.linkedin.com/in/nikola-zdrale/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
