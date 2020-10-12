@@ -74,7 +74,7 @@ p {
   font-size: 1.6rem;
 }
 
-/*slider section*/
+/* slider section */
 
 .nav-small i {
   font-size: 3rem;
@@ -85,6 +85,12 @@ p {
 .slider {
   background: #F8F8F8;
   background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)),url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80");
+  background-size: cover;
+}
+
+.slider-about {
+  background: #F8F8F8;
+  background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1));
   background-size: cover;
 }
 
@@ -114,7 +120,7 @@ p {
 }
 
 
-/*main-program section*/
+/* main-program section */
 
 .main-program i {
   font-size: 3rem;
@@ -137,4 +143,22 @@ p {
   .partners {
     width: 90%;
   }
+}
+
+/* past section */
+
+.previous div:nth-child(2) {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80");
+  background-size: cover;
+}
+
+.previous div:nth-child(3) {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),url("https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+}
+
+/* tickets section */
+
+.bg-table {
+  background: url("https://thumbs.dreamstime.com/b/air-mail-letter-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg");
 }
