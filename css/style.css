@@ -87,13 +87,13 @@ p {
 }
 
 .slider {
-  background: #F8F8F8;
+  background: #f8f8f8;
   background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)),url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80");
   background-size: cover;
 }
 
 .slider-about {
-  background: #F8F8F8;
+  background: #f8f8f8;
   background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1));
   background-size: cover;
 }
@@ -115,14 +115,13 @@ p {
 }
 
 .welcome-description {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   border: 2px solid #fff;
 }
 
 .event-date h2 {
   font-size: 2rem;
 }
-
 
 /* main-program section */
 
@@ -143,7 +142,7 @@ p {
   margin: 2rem;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .partners {
     width: 90%;
   }
@@ -152,12 +151,12 @@ p {
 /* past section */
 
 .previous div:nth-child(1) {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80");
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80");
   background-size: cover;
 }
 
 .previous div:nth-child(2) {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),url("https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
 }
 
@@ -168,7 +167,7 @@ p {
   background-size: cover;
 }
 
-@media  screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .steps p {
     width: 50%;
     margin: auto;
@@ -183,7 +182,7 @@ p {
     margin: auto;
   }
 
-  .logo-description figure{
+  .logo-description figure {
     width: 50%;
     margin: auto;
   }
