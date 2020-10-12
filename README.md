@@ -23,7 +23,7 @@ I've worked on all the requirements given on this project.
 - Bootstrap
 ## Live Demo
 
-[Live Demo Link](https://daviidy.github.io/news-week-clone/)
+[Live Demo Link](https://daviidy.github.io/HTML-CSS-capstone-project-Conference-Page/)
 
 ## Authors
 
