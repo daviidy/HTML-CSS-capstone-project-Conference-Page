@@ -228,7 +228,6 @@ p {
 }
 
 @media screen and (max-width: 320px) {
-
 /* break table */
 
   tr {
@@ -249,6 +248,19 @@ p {
 
   th {
     width: 100%;
+  }
+
+  .hr-speakers {
+    display: none;
+  }
+
+  .speakers .row {
+    display: block;
+    text-align: center;
+  }
+
+  .speaker-block {
+    margin: auto;
   }
 }
 
