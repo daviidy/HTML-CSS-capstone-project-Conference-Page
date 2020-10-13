@@ -236,7 +236,7 @@ p {
     width: 100%;
   }
 
-  td {
+    td {
     display: block;
     width: 50%;
     text-align: center;
@@ -254,7 +254,7 @@ p {
     display: none;
   }
 
-  .speakers .row {
+  .speakers .row, #demo .row {
     display: block;
     text-align: center;
   }
