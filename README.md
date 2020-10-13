@@ -1,8 +1,6 @@
 # HTML-CSS-capstone-project-Conference-Page
 > The project I've built for the HTML &amp; CSS Capstone Project is based on an online website for a conference
 
-![screenshot](assets/images/screenshot.png)
-
 This project is the capstone project of in the HTML/CSS module at Microverse. Main goal was to build an online website for a conference. I chose an HTML/CSS bootcamp.
 
 I have followed the [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) given by [Cindy Shin in Behance](https://www.behance.net/adagio07)

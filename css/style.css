@@ -62,6 +62,14 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  color: #ec5242;
+}
+
+a:active {
+  color: #ec5242;
+}
+
 p {
   color: #272a31;
   font-weight: 100;
@@ -94,7 +102,26 @@ p {
   font-size: 1.6rem;
 }
 
+.logo {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.logo img {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
 /* slider section */
+
+.image-effect {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url(https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
 
 .nav-small {
   font-size: 3rem;
@@ -202,7 +229,7 @@ p {
 
 @media screen and (max-width: 320px) {
 
-  /* break table */
+/* break table */
 
   tr {
     display: flex;
@@ -223,7 +250,6 @@ p {
   th {
     width: 100%;
   }
-
 }
 
 /* past section */
