@@ -1,0 +1,318 @@
+/*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+/* Global Setting */
+
+@font-face {
+  font-family: Cocogoose;
+  src: url('../assets/fonts/cocogoose/Cocogoose Pro-trial.ttf');
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 10vw;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 5vw;
+}
+
+h3 {
+  font-size: 5vw;
+}
+
+img {
+  width: 100px;
+}
+
+.tickets-title {
+  font-size: 20px;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+a:active {
+  color: #ec5242;
+}
+
+p {
+  color: #272a31;
+  font-weight: 100;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.cta {
+  font-size: 1.2rem;
+}
+
+.hr-title {
+  border: 1px solid #ec5242;
+  width: 10%;
+}
+
+.hr-speakers {
+  border: 1px solid #3c3e43;
+  width: 10%;
+}
+
+.section-title {
+  font-size: 1.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.6rem;
+}
+
+.logo {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.logo img {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+/* slider section */
+
+.image-effect {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url(https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav-small {
+  font-size: 3rem;
+  top: 15%;
+  left: 5%;
+}
+
+.campaign {
+  border: 5px solid #ec5242;
+}
+
+.slider {
+  background: #f8f8f8;
+  background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1)), url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=725&q=80");
+  background-size: cover;
+}
+
+.slider-about {
+  background: #f8f8f8;
+  background-image: linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 1));
+  background-size: cover;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.bg-red {
+  background-color: #ec5242;
+}
+
+.bg-dark-light-custom {
+  background-color: rgba(143, 143, 143, 0.5);
+}
+
+.bg-dark-custom {
+  background-color: #272a31;
+}
+
+.welcome-description {
+  background-color: #f7f7f7;
+  border: 2px solid #fff;
+}
+
+/* main-program section */
+
+.main-program {
+  background-image: linear-gradient(rgba(40, 43, 50, 0.9), rgba(40, 43, 50, 0.9)), url("https://images.assetsdelivery.com/compings_v2/floralset/floralset1905/floralset190500161.jpg");
+  background-size: cover;
+}
+
+.main-program i {
+  font-size: 3rem;
+}
+
+.program-block:hover {
+  border: 2px solid #fff;
+}
+
+/* speakers section */
+
+.speaker-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* partner section */
+
+.partners-section {
+  background-color: #414246;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.partners figure {
+  margin: 2rem;
+}
+
+.partners img {
+  filter: contrast(5);
+}
+
+@media screen and (max-width: 767px) {
+  .partners {
+    width: 90%;
+  }
+
+  .program .section-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .program i {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  td {
+    display: block;
+    width: 50%;
+    text-align: center;
+  }
+
+  td[colspan] {
+    width: 100%;
+  }
+
+  th {
+    width: 100%;
+  }
+
+  .hr-speakers {
+    display: none;
+  }
+
+  .speakers .row,
+  #demo .row {
+    display: block;
+    text-align: center;
+  }
+
+  .speaker-block {
+    margin: auto;
+  }
+}
+
+/* past section */
+
+.previous div:nth-child(1) {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80");
+  background-size: cover;
+}
+
+.previous div:nth-child(2) {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+}
+
+/* tickets section */
+
+.bg-table {
+  background: url("https://thumbs.dreamstime.com/b/air-mail-letter-vector-post-stamp-airmail-frame-postcard-blue-red-stripes-pattern-mockup-template-envelope-white-background-185936206.jpg") no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .steps p {
+    width: 50%;
+    margin: auto;
+  }
+
+  .welcome-description {
+    width: 50%;
+  }
+
+  .slider-about .welcome-description {
+    width: 50%;
+    margin: auto;
+  }
+
+  .logo-description figure {
+    width: 50%;
+    margin: auto;
+  }
+
+  .program .section-subtitle {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .program i {
+    font-size: 1.5rem;
+  }
+
+  .program-block-parent {
+    margin: 2px;
+  }
+}
