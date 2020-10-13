@@ -26,16 +26,36 @@ p {
 }
 
 /* Global Setting */
+
+@font-face {
+  font-family: Cocogoose;
+  src: url('../assets/fonts/cocogoose/Cocogoose Pro-trial.ttf');
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  font-size: 10vw;
+  font-family: 'Cocogoose', sans-serif;
+}
+
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 5vw;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 5vw;
+}
+
+img {
+  width: 100px;
+}
+
+.tickets-title {
+  font-size: 20px;
 }
 
 a {
@@ -76,10 +96,10 @@ p {
 
 /* slider section */
 
-.nav-small i {
+.nav-small {
   font-size: 3rem;
-  top: 10%;
-  left: 10%;
+  top: 15%;
+  left: 5%;
 }
 
 .campaign {
@@ -107,7 +127,7 @@ p {
 }
 
 .bg-dark-light-custom {
-  background-color: #3c3e43;
+  background-color: rgba(143, 143, 143, 0.5);
 }
 
 .bg-dark-custom {
@@ -119,22 +139,41 @@ p {
   border: 2px solid #fff;
 }
 
-.event-date h2 {
-  font-size: 2rem;
-}
-
 /* main-program section */
+
+.main-program {
+  background-image: linear-gradient(rgba(40, 43, 50, 0.9), rgba(40, 43, 50, 0.9)), url("https://images.assetsdelivery.com/compings_v2/floralset/floralset1905/floralset190500161.jpg");
+  background-size: cover;
+}
 
 .main-program i {
   font-size: 3rem;
 }
 
+.program-block:hover {
+  border: 2px solid #fff;
+}
+
+/* speakers section */
+
+.speaker-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* partner section */
+
+.partners-section {
+  background-color: #414246;
+}
 
 .partners {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
@@ -142,10 +181,49 @@ p {
   margin: 2rem;
 }
 
+.partners img {
+  filter: contrast(5);
+}
+
 @media screen and (max-width: 767px) {
   .partners {
     width: 90%;
   }
+
+  .program .section-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .program i {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  /* break table */
+
+  tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  td {
+    display: block;
+    width: 50%;
+    text-align: center;
+  }
+
+  td[colspan] {
+    width: 100%;
+  }
+
+  th {
+    width: 100%;
+  }
+
 }
 
 /* past section */
@@ -187,13 +265,17 @@ p {
     margin: auto;
   }
 
-  .speakers .section-subtitle {
+  .program .section-subtitle {
     font-size: 1.2rem;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 
-  .speakers i {
+  .program i {
     font-size: 1.5rem;
+  }
+
+  .program-block-parent {
+    margin: 2px;
   }
 }
