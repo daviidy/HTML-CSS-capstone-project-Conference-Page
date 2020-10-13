@@ -228,7 +228,6 @@ p {
 }
 
 @media screen and (max-width: 320px) {
-
   tr {
     display: flex;
     flex-wrap: wrap;
